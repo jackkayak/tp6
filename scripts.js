@@ -25,6 +25,16 @@ function loadFileInto(fromFile, whereTo) {
 
 }
 
+
+window.onload = function() {
+  
+  loadFileInto("ingredients.html", "column1");
+  
+  loadFileInto("equipment.html", "column2");
+  
+  loadFileInto("directions.html", "column3");
+};
+
 /* Changing Raspberry Header to a bigger font.. Got help from demos and GeeksforGeeks.org */
 
  var h1 = document.getElementById('h1');
